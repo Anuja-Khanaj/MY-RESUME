@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Tiro Devanagari Sanskrit", serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body{
+  background: linear-gradient(
+    to left,
+    rgba(231, 17, 102, 0.674) 0%,
+    rgba(249, 209, 9, 0.632) 100%
+  );
+
+}
+.container {
+  display: flex;
+  margin: 5rem 39rem;
+  font-size: 1.5rem;
+  background-color: rgba(249, 248, 246, 0.26);
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+
+.left {
+  /* margin-right: 1rem; */
+  /* background-color: rgba(249, 248, 246, 0.26); */
+  backdrop-filter: blur(5px);
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.name {
+  
+  border-radius: 10px;
+  border-bottom: solid rgba(231, 17, 103, 0.87);
+  padding: 1.5rem;
+}
+
+
+img{
+      width:10rem;
+      margin-left: 3.5rem;
+      border-radius: 300rem;
+      height: 10rem;   
+}
+
+.languages {
+  
+  border-bottom: solid rgba(231, 17, 103, 0.87);
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.languages ol{
+  padding: 1.5rem;
+}
+
+h4{
+  background-color:rgba(231, 17, 103, 0.315) ;
+  border-radius: 20px;
+  padding: 0.7rem;
+}
+
+.right {
+  /* margin-left: 1rem; */
+
+  backdrop-filter: blur(5px);
+  padding: 1.5rem;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.content {
+  
+  border-radius: 10px;
+  border-bottom: solid rgba(231, 17, 103, 0.87);
+  padding: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.content ol {
+  padding: 1.5rem;
+}
+
+ol li{
+  list-style:disc;
+}
+
+ul {
+  list-style: none;
+}
+
+.icon{
+  font-size: 2.5rem;
+}
+
+ul li{
+  font-size: 1.5rem;
+}
